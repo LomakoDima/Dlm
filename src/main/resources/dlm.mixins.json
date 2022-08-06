@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.dimalab.dlm.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "dlm.refmap.json",
+  "mixins": [
+    "ModInGameScreen"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
